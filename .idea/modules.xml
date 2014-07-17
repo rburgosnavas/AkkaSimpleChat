@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Client/.idea/modules/client.iml" filepath="$PROJECT_DIR$/Client/.idea/modules/client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Client/.idea/modules/client-build.iml" filepath="$PROJECT_DIR$/Client/.idea/modules/client-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Event/.idea/modules/event.iml" filepath="$PROJECT_DIR$/Event/.idea/modules/event.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Event/.idea/modules/event-build.iml" filepath="$PROJECT_DIR$/Event/.idea/modules/event-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Room/.idea/modules/room.iml" filepath="$PROJECT_DIR$/Room/.idea/modules/room.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Room/.idea/modules/room-build.iml" filepath="$PROJECT_DIR$/Room/.idea/modules/room-build.iml" />
+    </modules>
+  </component>
+</project>
+

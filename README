@@ -1,0 +1,5 @@
+A simple chat thingy in Scala and Akka. Based on Alvin Alexander's tutorial here http://alvinalexander.com/scala/simple-akka-actors-remote-example.
+
+Difference between his example and this? Well this uses Scala 2.11.1 and Akka 2.3.4, and it's a true real time chat app. Also it's not very well implemented (but will continue to work on it as I keep learning Akka). Additionally, this is a full IntelliJ IDEA project with a main module and two sub-modules. This could be organized a lot better but this was a last minute decision.
+
+Anyway, hopefully this will be useful to anyone just starting out with Akka and Scala as I am, and improve on it!

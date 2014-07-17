@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaSbtSettings">
+    <option name="linkedExternalProjectsSettings">
+      <SbtProjectSettings>
+        <option name="createEmptyContentRootDirectories" value="true" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Client" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/Client" />
+            <option value="$PROJECT_DIR$/Client/project" />
+          </set>
+        </option>
+      </SbtProjectSettings>
+      <SbtProjectSettings>
+        <option name="createEmptyContentRootDirectories" value="true" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Event" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/Event" />
+            <option value="$PROJECT_DIR$/Event/project" />
+          </set>
+        </option>
+      </SbtProjectSettings>
+      <SbtProjectSettings>
+        <option name="createEmptyContentRootDirectories" value="true" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Room" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/Room" />
+            <option value="$PROJECT_DIR$/Room/project" />
+          </set>
+        </option>
+      </SbtProjectSettings>
+    </option>
+  </component>
+</project>
+
