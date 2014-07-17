@@ -1,5 +1,21 @@
+# SimpleAkkaChat
+
 A simple chat thingy in Scala and Akka. Based on Alvin Alexander's tutorial here http://alvinalexander.com/scala/simple-akka-actors-remote-example.
 
-Difference between his example and this? Well this uses Scala 2.11.1 and Akka 2.3.4, and it's a true real time chat app. Also it's not very well implemented (but will continue to work on it as I keep learning Akka). Additionally, this is a full IntelliJ IDEA project with a main module and two sub-modules. This could be organized a lot better but this was a last minute decision.
+Differences between Alvin's version and this one are the use of Scala 2.11.1 and Akka 2.3.4, and that it is a real time command line chat. Additionally, Alvin's version two separate SBT projects, while this one is an IntelliJ IDEA project with 3 modules for the Client, Room, and Events.
 
-Anyway, hopefully this will be useful to anyone just starting out with Akka and Scala as I am, and improve on it!
+This app was intended as a way to get acquainted with Akka hopefully will be useful to others learning this stuff up. I also welcome suggestions for improvement!
+
+## Set up
+
+If I'm not mistaken, everything should be ready to go once you check out the project. If not, make sure you run SBT for each module to set everything straight and that each module its the dependencies in place.
+
+## To test
+
+Simply run the `Room` first, then run a `Client` passing it a "user name" as a program argument. Without passing a "user name", the `Client` will set it to generic "guest-[timestamp]". Run as many `Clients` as you want and have a chat party! Just type stuff on the command line.
+
+To leave a room type "/q".
+
+## Notes
+
+As I'm still learning, I don't think the `Clients` are stopped or disassociated properly or gracefully. 
