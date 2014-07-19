@@ -20,7 +20,7 @@ class Room extends Actor {
     case login @ Login(user, _) =>
       members += login
       println(s"${members.length} connection(s)")
-      members foreach { println(_) }
+      members foreach { printMember }
 
       members filter (_.user != user) foreach {
         _.actor ! Broadcast(user, "<connected>")
@@ -42,10 +42,15 @@ class Room extends Actor {
       members foreach {
         (member) => {
           member.actor ! Broadcast(user, "<disconnected>")
-          println(member)
+          printMember(member)
         }
       }
       println()
+  }
+
+  private def printMember(member: Login) = {
+    println(s"${member.user} " +
+      s"@ ${member.actor.path.address.host.getOrElse("unknown-host")}")
   }
 }
 

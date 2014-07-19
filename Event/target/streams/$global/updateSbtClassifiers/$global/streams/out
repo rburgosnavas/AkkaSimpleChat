@@ -607,9 +607,9 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-agent;0.13.2!test-agent.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.2!apply-macro.jar
-[debug] :: resolution report :: resolve 2295ms :: artifacts dl 34ms
+[debug] :: resolution report :: resolve 4920ms :: artifacts dl 90ms
 [debug] 	report for event#event$sbt_2.11;1.0 default produced in /home/burgosr/IdeaProjects/AkkaSimpleChat/Event/target/resolution-cache/reports/event-event$sbt_2.11-default.xml
-[debug] 	resolve done (2295ms resolve - 34ms download)
+[debug] 	resolve done (4920ms resolve - 90ms download)
 [debug] Using inline dependencies specified in Scala.
 [debug] :: resolving dependencies :: event#event$sources_2.11;1.0
 [debug] 	confs: [default]
@@ -944,6 +944,6 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_8_2;0.13.2!precompiled-2_8_2.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_9_2;0.13.2!precompiled-2_9_2.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_9_3;0.13.2!precompiled-2_9_3.jar(src)
-[debug] :: resolution report :: resolve 557ms :: artifacts dl 41ms
+[debug] :: resolution report :: resolve 661ms :: artifacts dl 63ms
 [debug] 	report for event#event$sources_2.11;1.0 default produced in /home/burgosr/IdeaProjects/AkkaSimpleChat/Event/target/resolution-cache/reports/event-event$sources_2.11-default.xml
-[debug] 	resolve done (557ms resolve - 41ms download)
+[debug] 	resolve done (661ms resolve - 63ms download)
