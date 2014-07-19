@@ -20,7 +20,7 @@ class Room extends Actor {
     case login @ Login(user, _) =>
       members += login
       println(s"${members.length} connection(s)")
-      members foreach { printMember }
+      members foreach printMember
 
       members filter (_.user != user) foreach {
         _.actor ! Broadcast(user, "<connected>")
