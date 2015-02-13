@@ -4,7 +4,7 @@
 		module="event$sources_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20140718154445"
+		publication="20140808163243"
 	/>
 	<configurations>
 		<conf name="default" visibility="public" description=""/>
